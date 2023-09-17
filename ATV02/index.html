@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Lançamento de Notas</legend>
+
+                <tr><td>&nbsp;</td></tr>
+
+                <table>
+                    <tr>
+                        <td>
+                            <label for="idisciplina">Selecione a disciplina </label>
+                            <select name="disciplina" id="idisciplina">
+                                <option value="INFO">Introdução à informática</option>
+                                <option value="PROG">Linguagens de Programação</option>
+                                <option value="COMP">Programação de Computadores</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr><td>&nbsp;</td></tr>
+
+
+                    <tr>
+                        <th>Nome Aluno</th>
+                        <th>Prova 1</th>
+                        <th>Prova 2</th>
+                        <th>Exame</th>
+                        <th>Média</th>
+                        <th>Faltas</th>
+                    </tr>
+
+                    <tr>
+                        <td>Joana da Silva</td>
+                        <td>
+                            <input type="number" name="p1" id="ip1" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input type="number" name="p2" id="ip2" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input type="number" name="exame" id="iexame" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input readonly= “”  type="number" name="media" id="imedia" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input type="number" name="falta" id="ifalta" min="0" max="16" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Maria do Socorro</td>
+                        <td>
+                            <input type="number" name="p1" id="ip1" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input type="number" name="p2" id="ip2" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input type="number" name="exame" id="iexame" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input readonly= “”  type="number" name="media" id="imedia" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input type="number" name="falta" id="ifalta" min="0" max="16" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Pedro Santos</td>
+                        <td>
+                            <input type="number" name="p1" id="ip1" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input type="number" name="p2" id="ip2" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input type="number" name="exame" id="iexame" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input readonly= “”  type="number" name="media" id="imedia" min="0" max="10" required>
+                        </td>
+                        <td>
+                            <input type="number" name="falta" id="ifalta" min="0" max="16" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+                        </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+</html>
